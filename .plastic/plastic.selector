@@ -1,0 +1,4 @@
+repository "3rdPerson@burningS0ul@cloud"
+  path "/"
+    br "/main"
+    co "/main"

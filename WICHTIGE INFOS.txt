@@ -1,0 +1,13 @@
+Musik - Impact von Kevin MacLeod.
+
+Mir bekannte Bugs:
+
+- Da das Zielen durch Position und Richtungswinkel des BarrelPos Objekts 
+und nicht durch einem Raycast definiert wird (Raycast hatte ich nicht verstanden),
+richtet sich die Bullet trajectory danach. 
+In anderen Worten, durch sehr schnelle Mausbewegung während dem Schießen, 
+schießt die Bullet also nicht auf den Punkt in der Mitte des Bildschirms, 
+sondern dahin wo die Waffe im Moment zeigt.
+
+- Irgendwas bei der velocity der Gegner bei ChaseState hab ich falsch gemacht?
+Deswegen spielt die animation immer mit maxSpeed oder 0 speed ab.
